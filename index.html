@@ -1,0 +1,214 @@
+<!DOCTYPE HTML>
+<!--
+	Big Picture by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>COD: MOBILE BATMAN</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+        <style>
+        .button {
+          border: none;
+          color:  black;
+          padding: 1px 15px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 15px;
+          margin: 4px 2px;
+          cursor: pointer;
+                }
+        .button1 {background-color: #FFFF00;} /* Yellow */
+        .button2 {background-color: #FFFF00;} /* Yellow */
+        </style>
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<h1>COD: MOBILE BATMAN</h1>
+				<nav>
+					<ul>
+						<li><a href="#intro">Home</a></li>
+						<li><a href="#one">Battle Royale</a></li>
+						<li><a href="#two">Multiplayer</a></li>
+						<li><a href="#work">News And Headlines</a></li>
+						<li><a href="#contact">Contact</a></li>
+					</ul>
+				</nav>
+			</header>
+
+		<!-- Home -->
+			<section id="intro" class="biscuit">
+				<div class="darknight">
+                    <header>
+                        <img src="images/cod-mobile-logo-v2.png" width="136.8" height="50.83">
+					</header>
+                    <p><strong><p style="color: yellow"</p>JOIN TOURNAMENT NOW</strong></p> <p><a href="https://html5up.net"><button class="button button1">JOIN TOURNAMENT</button></a></p>
+                    <div id="smart-button-container">
+      <div style="text-align: center;">
+        <div id="paypal-button-container"></div>
+      </div>
+    </div>
+  <script src="https://www.paypal.com/sdk/js?client-id=sb&enable-funding=venmo&currency=USD" data-sdk-integration-source="button-factory"></script>
+  <script>
+    function initPayPalButton() {
+      paypal.Buttons({
+        style: {
+          shape: 'pill',
+          color: 'gold',
+          layout: 'vertical',
+          label: 'pay',
+          
+        },
+
+        createOrder: function(data, actions) {
+          return actions.order.create({
+            purchase_units: [{"description":"JOIN TOURNAMENT","amount":{"currency_code":"USD","value":1.45}}]
+          });
+        },
+
+        onApprove: function(data, actions) {
+          return actions.order.capture().then(function(details) {
+            alert('Transaction completed by ' + details.payer.name.given_name + '!');
+          });
+        },
+
+        onError: function(err) {
+          console.log(err);
+        }
+      }).render('#paypal-button-container');
+    }
+    initPayPalButton();
+  </script>
+                    <footer>
+						<a href="#one" class="button style2 down">More</a>
+					</footer>
+                        </div>
+                    <div class="video-container">
+                    <video id="vid" style="width: 100%"; playsinline autoplay loop muted>
+                    <source id="mp4" src="videos/COD%20MOBILE----BATMAN.mp4" type="video/mp4">
+                    </video>
+                    </div>
+				</div>
+			</section>
+
+		<!-- Battle Royale -->
+			<section id="one" class="main style2 right dark fullscreen">
+				<div class="content box style2">
+					<header>
+                        <h2> <p style="color: yellow"</p> BATTLE ROYALE</h2>
+					</header>
+					<p>Survive the 100-player experience</p>
+                    <p><strong>Winner</strong> gets <strong>$58</strong></p>
+                    <p><strong>First runner-up</strong> gets <strong>$20.3</strong></p>
+                    <p><strong>Second runner-up</strong> gets <strong>$14.5</strong></p>
+                    <p><strong>Highest kill</strong> gets <strong>$8.7</strong></p>
+				</div>
+				<a href="#two" class="button style2 down anchored">Next</a>
+			</section>
+
+		<!-- Multiplayer -->
+			<section id="two" class="main style2 left dark fullscreen">
+				<div class="content box style2">
+					<header>
+						<h2><p style="color: yellow"</p>MULTIPLAYER</h2>
+					</header>
+					<p>... COMING SOON</p>
+				</div>
+				<a href="#work" class="button style2 down anchored">Next</a>
+			</section>
+
+		<!-- News And Headlines -->
+			<section id="work" class="main style3 primary">
+				<div class="content">
+					<header>
+						<h2><p style="color: yellow"</p>NEWS AND HEADLINES</h2>
+						<p>A NEW BATTLE ROYALE TOURNAMENT FOR YOU TO WIN, COMING SOON... 2021.</p>
+					</header>
+
+					<!-- Contact  -->
+						<div class="gallery">
+							<article class="from-left">
+								<a href="images/fulls/CRASH.jpg" class="image fit"><img src="images/thumbs/CRASH_Thumb.jpg" title="CRASH" alt="" /></a>
+							</article>
+							<article class="from-right">
+								<a href="images/fulls/CROSSFIRE.jpg" class="image fit"><img src="images/thumbs/CROSSFIRE_Thumb.jpg" title="CROSSFIRE" alt="" /></a>
+							</article>
+							<article class="from-left">
+								<a href="images/fulls/FIRING RANGE.jpg" class="image fit"><img src="images/thumbs/FIRING RANGE_Thumb.jpg" title="FIRING RANGE" alt="" /></a>
+							</article>
+							<article class="from-right">
+								<a href="images/fulls/HIJACKED.jpg" class="image fit"><img src="images/thumbs/HIJACKED_Thumb.jpg" title="HIJACKED" alt="" /></a>
+							</article>
+							<article class="from-left">
+								<a href="images/fulls/KILLHOUSE.jpg" class="image fit"><img src="images/thumbs/KILLHOUSE_Thumb.jpg" title="KILLHOUSE" alt="" /></a>
+							</article>
+							<article class="from-right">
+								<a href="images/fulls/NUKETOWN 2.jpg" class="image fit"><img src="images/thumbs/NUKETOWN 2_Thumb.jpg" title="NUKETOWN 2" alt="" /></a>
+							</article>
+						</div>
+
+				</div>
+			</section>
+
+		<!-- Contact -->
+			<section id="contact" class="main style3 secondary">
+				<div class="content">
+					<header>
+						<h2><p style="color: yellow"</p>Contact Us</h2>
+						<p><p style="color: rgb(255, 255, 255)"</p>Message us, we want to hear from you.</p>
+					</header>
+					<div class="box">
+						<form method="post" action="Send-message.php">
+							<div class="fields">
+								<div class="field half"><input type="text" name="name" placeholder="Name" /></div>
+								<div class="field half"><input type="email" name="email" placeholder="Email" /></div>
+								<div class="field"><textarea name="message" placeholder="Message" rows="6"></textarea></div>
+							</div>
+							<ul class="actions special">
+								<li><input type="submit" value="Send Message" /></li>
+							</ul>
+						</form>
+					</div>
+				</div>
+			</section>
+
+		<!-- Footer -->
+			<footer id="footer">
+
+				<!-- Icons -->
+					<ul class="icons">
+						
+						
+						<li><a href="https://instagram.com/codbatmobile?utm_medium=copy_link" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+						
+						
+						
+                        <li><a href="t.me/codbatman" class="icon brands fa-telegram"><span class="label">Telegram</span></a></li>
+					</ul>
+
+				<!-- Menu -->
+					<ul class="menu">
+						<li>&copy; CODBATMAN</li><li>Design: <a href="https://html5up.net">WAYNE</a></li>
+					</ul>
+
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.poptrox.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

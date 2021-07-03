@@ -1,0 +1,2 @@
+create a direct link from "Join Tournament" that sends the link and password to the
+email (and possibly others means) of interested participants. Thank you Jesus
